@@ -1,0 +1,1146 @@
+img {
+    transform: rotate(0deg);
+    width: 40%; /* Adjust the percentage as needed */
+    position:absolute;
+    top: 40px;
+}
+.search-bar { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.circle {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 225px;
+}
+
+.circle:hover::after {
+    content: "?";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.circle-2 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 240px;
+}
+.circle-2:hover::after {
+    content: "178";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-3 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 275px;
+}
+.circle-3:hover::after {
+    content: "?";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-4 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 415px;
+}
+.circle-4:hover::after {
+    content: "147";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-5 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 480px;
+}
+.circle-5:hover::after {
+    content: "148";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-6 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 480px;
+}
+.circle-6:hover::after {
+    content: "154";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-7 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 490px;
+}
+.circle-7:hover::after {
+    content: "151";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-8 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 215px;
+    left: 575px;
+}
+.circle-8:hover::after {
+    content: "157";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-9 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 445px;
+    left: 575px;
+}
+.circle-9:hover::after {
+    content: "167";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-10 {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 655px;
+    left: 405px;
+}
+.circle-10:hover::after {
+    content: "218";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-11 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 225px;
+    left: 575px;
+}
+.circle-11:hover::after {
+    content: "159";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-12 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 295px;
+    left: 575px;
+}
+.circle-12:hover::after {
+    content: "161";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-13 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 365px;
+    left: 575px;
+}
+.circle-13:hover::after {
+    content: "162";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-14 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 432px;
+    left: 575px;
+}
+.circle-14:hover::after {
+    content: "165";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-15 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 470px;
+    left: 575px;
+}
+.circle-15:hover::after {
+    content: "209";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-16 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 515px;
+    left: 575px;
+}
+.circle-16:hover::after {
+    content: "212";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-17 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 550px;
+    left: 575px;
+}
+.circle-17:hover::after {
+    content: "214";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-18 {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 605px;
+    left: 575px;
+}
+.circle-18:hover::after {
+    content: "227";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-19 {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 230px;
+}
+.circle-19:hover::after {
+    content: "Router 177 t/m 208";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-20 {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 525px;
+}
+.circle-20:hover::after {
+    content: "Router 145 t/m 176";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.circle-21 {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 660px;
+    left: 445px;
+}
+.circle-21:hover::after {
+    content: "Router 209 t/m 240";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-1 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 235px;
+    left: 235px;
+}
+.rectangle-1:hover::after {
+    content: "189";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-2 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    left: 425px;
+}
+.rectangle-2:hover::after {
+    content: "145";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-3 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    left: 445px;
+}
+.rectangle-3:hover::after {
+    content: "171";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-4 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    left: 510px;
+}
+.rectangle-4:hover::after {
+    content: "150";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-5 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 70px;
+    left: 525px;
+}
+.rectangle-5:hover::after {
+    content: "152";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-6 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 120px;
+    left: 525px;
+}
+.rectangle-6:hover::after {
+    content: "169";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-7 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 170px;
+    left: 525px;
+}
+.rectangle-7:hover::after {
+    content: "153";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-8 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 230px;
+    left: 575px;
+}
+.rectangle-8:hover::after {
+    content: "158";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-9 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 300px;
+    left: 575px;
+}
+.rectangle-9:hover::after {
+    content: "160";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-10 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 370px;
+    left: 575px;
+}
+.rectangle-10:hover::after {
+    content: "163";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-11 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 410px;
+    left: 575px;
+}
+.rectangle-11:hover::after {
+    content: "164";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-12 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 440px;
+    left: 575px;
+}
+.rectangle-12:hover::after {
+    content: "168";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-13 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 475px;
+    left: 575px;
+}
+.rectangle-13:hover::after {
+    content: "210";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-14 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 520px;
+    left: 575px;
+}
+.rectangle-14:hover::after {
+    content: "211";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-15 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 555px;
+    left: 575px;
+}
+.rectangle-15:hover::after {
+    content: "213";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-16 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 610px;
+    left: 575px;
+}
+.rectangle-16:hover::after {
+    content: "215";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-17 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 545px;
+}
+.rectangle-17:hover::after {
+    content: "216";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-18 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 495px;
+}
+.rectangle-18:hover::after {
+    content: "220";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-19 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 462px;
+}
+.rectangle-19:hover::after {
+    content: "226";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-20 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 430px;
+}
+.rectangle-20:hover::after {
+    content: "219";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-21 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 393px;
+}
+.rectangle-21:hover::after {
+    content: "232";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-22 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 380px;
+}
+.rectangle-22:hover::after {
+    content: "221";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-23 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 660px;
+    left: 350px;
+}
+.rectangle-23:hover::after {
+    content: "222";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-24 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 590px;
+    left: 335px;
+}
+.rectangle-24:hover::after {
+    content: "223";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-25 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 530px;
+    left: 335px;
+}
+.rectangle-25:hover::after {
+    content: "224";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-26 {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 470px;
+    left: 335px;
+}
+.rectangle-26:hover::after {
+    content: "225";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-27 {
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+    position: absolute;
+    top: 45px;
+    left: 420px;
+}
+.rectangle-27:hover::after {
+    content: "?";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-28 {
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+    position: absolute;
+    top: 210px;
+    left: 530px;
+}
+.rectangle-28:hover::after {
+    content: "?";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-29 {
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+    position: absolute;
+    top: 460px;
+    left: 575px;
+}
+.rectangle-29:hover::after {
+    content: "15";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-30 {
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+    position: absolute;
+    top: 660px;
+    left: 540px;
+}
+.rectangle-30:hover::after {
+    content: "33";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-31 {
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    top: 240px;
+    left: 225px;
+}
+.rectangle-31:hover::after {
+    content: "179";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-32 {
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+.rectangle-32:hover::after {
+    content: "146";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-33 {
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    top: 420px;
+    left: 580px;
+}
+.rectangle-33:hover::after {
+    content: "166";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.rectangle-34 {
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    top: 665px;
+    left: 400px;
+}
+.rectangle-34:hover::after {
+    content: "217";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.borderimg {
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 700px;
+    width: 400px;
+    height: 400px;
+}

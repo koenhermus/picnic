@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beveiligingssensor</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="button">Search</button>
+    </div>
+    <img src="img/HubLayout.png" alt="HubLayout" />
+    <script>
+        document.querySelector('.search-bar button').addEventListener('click', function() {
+            const searchTerm = document.querySelector('.search-bar input').value.toLowerCase();
+            const divs = document.querySelectorAll('div[id]'); // Select all divs with an id attribute
+            let found = false;
+
+            divs.forEach(div => {
+                // Compare the id of each div with the search term (case-insensitive)
+                if (div.id.toLowerCase() === searchTerm) {
+                    div.style.transform = 'scale(3)';
+                    found = true;
+                    const borderImgDiv = document.querySelector('.borderimg');
+                    if (window.getComputedStyle(div).backgroundColor === 'rgb(255, 0, 0)') { // Red background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera1.jpg" alt="Beveiligingscamera1">';
+                    } else if (window.getComputedStyle(div).backgroundColor === 'rgb(0, 0, 255)') { // Blue background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera2.jpg" alt="Beveligingscamera2">';
+                    } else if (window.getComputedStyle(div).backgroundColor === 'rgb(0, 128, 0)') { // Green background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera3.jpg" alt="Beveligingscamera3">';
+                    } else if (window.getComputedStyle(div).backgroundColor === 'rgb(128, 0, 128)') { // Prurple background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera4.jpg" alt="Beveligingscamera4">';
+                    } else if (window.getComputedStyle(div).backgroundColor === 'rgb(0, 0, 0)') { // Black background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera5.jpg" alt="Beveligingscamera5">';
+                    } else if (window.getComputedStyle(div).backgroundColor === 'rgb(255, 255, 0)') { // Yellow background
+                        borderImgDiv.innerHTML = '<img src="img/Beveiligingscamera6.jpg" alt="Beveligingscamera6">';
+                    } else {
+                        borderImgDiv.innerHTML = ''; // Clear the image if no match
+                    }
+                } else {
+                    div.style.transform = 'scale(1)';
+                }
+            });
+
+            if (!found) {
+                const borderImgDiv = document.querySelector('.borderimg');
+                borderImgDiv.innerHTML = ''; // Clear the image if no match found
+            }
+        });
+
+    </script>    
+    <div id="?"   class="circle"></div>
+    <div id="178"   class="circle-2"></div>
+    <div id="?"   class="circle-3"></div>
+    <div id="147"   class="circle-4"></div>
+    <div id="148"   class="circle-5"></div>
+    <div id="154"   class="circle-6"></div>
+    <div id="151"   class="circle-7"></div>
+    <div id="157"   class="circle-8"></div>
+    <div id="167"   class="circle-9"></div>
+    <div id="218"   class="circle-10"></div>
+    <div id="159"   class="circle-11"></div>
+    <div id="161"   class="circle-12"></div>
+    <div id="162"   class="circle-13"></div>
+    <div id="165"   class="circle-14"></div>
+    <div id="209"   class="circle-15"></div>
+    <div id="212"   class="circle-16"></div>
+    <div id="214"   class="circle-17"></div>
+    <div id="227"   class="circle-18"></div>
+    <div id="Router"   class="circle-19"></div>
+    <div id="Router"   class="circle-20"></div>
+    <div id="Router"   class="circle-21"></div>
+    <div id="189"   class="rectangle-1"></div>
+    <div id="145"   class="rectangle-2"></div>
+    <div id="171"   class="rectangle-3"></div>
+    <div id="150"   class="rectangle-4"></div>
+    <div id="152"   class="rectangle-5"></div>
+    <div id="169"   class="rectangle-6"></div>
+    <div id="153"   class="rectangle-7"></div>
+    <div id="158"   class="rectangle-8"></div>
+    <div id="160"   class="rectangle-9"></div>
+    <div id="163"   class="rectangle-10"></div>
+    <div id="164"   class="rectangle-11"></div>
+    <div id="168"   class="rectangle-12"></div>
+    <div id="210"   class="rectangle-13"></div>
+    <div id="211"   class="rectangle-14"></div>
+    <div id="213"   class="rectangle-15"></div>
+    <div id="215"   class="rectangle-16"></div>
+    <div id="216"   class="rectangle-17"></div>
+    <div id="220"   class="rectangle-18"></div>
+    <div id="226"   class="rectangle-19"></div>
+    <div id="219"   class="rectangle-20"></div>
+    <div id="232"   class="rectangle-21"></div>
+    <div id="221"   class="rectangle-22"></div>
+    <div id="222"   class="rectangle-23"></div>
+    <div id="223"   class="rectangle-24"></div>
+    <div id="224"   class="rectangle-25"></div>
+    <div id="225"   class="rectangle-26"></div>
+    <div id="?"     class="rectangle-27"></div>
+    <div id="?"     class="rectangle-28"></div>
+    <div id="15"    class="rectangle-29"></div>
+    <div id="33"    class="rectangle-30"></div>
+    <div id="179"   class="rectangle-31"></div>
+    <div id="146"   class="rectangle-32"></div>
+    <div id="166"   class="rectangle-33"></div>
+    <div id="217"   class="rectangle-34"></div>
+    <div   class="borderimg"></div>
+    <script src="script.js"></script>
+</body>
+</html>
